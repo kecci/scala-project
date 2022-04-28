@@ -906,3 +906,37 @@ WARNING: Unmatched cancel notification for request id 479
 2022.04.28 18:44:51 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)[0m
 2022.04.28 18:44:51 ERROR 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)[0m
 2022.04.28 18:44:51 INFO  time: compiled root in 13s[0m
+2022.04.28 18:53:50 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:53:55 ERROR An exception has occurred in the compiler (16.0.1). Please file a bug against the Java compiler via the Java bug reporting page (http://bugreport.java.com) after checking the Bug Database (http://bugs.java.com) for duplicates. Include your program, the following diagnostic, and the parameters passed to the Java compiler in your report. Thank you.[0m
+2022.04.28 18:53:55 ERROR java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x47096cc7) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x47096cc7[0m
+2022.04.28 18:53:55 ERROR 	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)[0m
+2022.04.28 18:53:55 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)[0m
+2022.04.28 18:53:55 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)[0m
+2022.04.28 18:53:55 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.prepareCompiler(JavacTaskImpl.java:204)[0m
+2022.04.28 18:53:55 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0(JavacTaskImpl.java:101)[0m
+2022.04.28 18:53:55 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)[0m
+2022.04.28 18:53:55 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:100)[0m
+2022.04.28 18:53:55 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:94)[0m
+2022.04.28 18:53:55 ERROR 	at bloop.CompilerCache$BloopJavaCompiler.run(CompilerCache.scala:307)[0m
+2022.04.28 18:53:55 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.$anonfun$compile$12(AnalyzingJavaCompiler.scala:172)[0m
+2022.04.28 18:53:55 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:53:55 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.timed(AnalyzingJavaCompiler.scala:262)[0m
+2022.04.28 18:53:55 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.compile(AnalyzingJavaCompiler.scala:161)[0m
+2022.04.28 18:53:55 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$9(BloopHighLevelCompiler.scala:167)[0m
+2022.04.28 18:53:55 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:53:55 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)[0m
+2022.04.28 18:53:55 ERROR 	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)[0m
+2022.04.28 18:53:55 ERROR 	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)[0m
+2022.04.28 18:53:55 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)[0m
+2022.04.28 18:53:55 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$8(BloopHighLevelCompiler.scala:160)[0m
+2022.04.28 18:53:55 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:53:55 ERROR 	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)[0m
+2022.04.28 18:53:55 ERROR 	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)[0m
+2022.04.28 18:53:55 ERROR 	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)[0m
+2022.04.28 18:53:55 ERROR 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)[0m
+2022.04.28 18:53:55 ERROR 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)[0m
+2022.04.28 18:53:55 ERROR 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)[0m
+2022.04.28 18:53:55 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)[0m
+2022.04.28 18:53:55 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)[0m
+2022.04.28 18:53:55 ERROR 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)[0m
+2022.04.28 18:53:55 INFO  time: compiled root in 4.75s[0m
