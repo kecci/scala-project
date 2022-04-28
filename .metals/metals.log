@@ -1,0 +1,908 @@
+2022.04.28 18:12:15 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/kecci/scala/scala-project/.metals/lsp.trace.json or /Users/kecci/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2022.04.28 18:12:16 INFO  logging to file /Users/kecci/scala/scala-project/.metals/metals.log[0m
+2022.04.28 18:12:16 INFO  Started: Metals version 0.11.4 in workspace '/Users/kecci/scala/scala-project' for client Visual Studio Code 1.66.2.[0m
+2022.04.28 18:12:25 INFO  time: initialize in 9.49s[0m
+2022.04.28 18:12:25 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.04.28 18:12:25 WARN  Build server is not auto-connectable.[0m
+2022.04.28 18:12:46 INFO  running '/Library/Java/JavaVirtualMachines/adoptopenjdk-16.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/d0/pzbpwgxd1nx_fwxskh00xd9m0000gn/T/metals6457552855018570669/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.04.28 18:12:46 WARN  no build target for: /Users/kecci/scala/scala-project/project/metals.sbt[0m
+2022.04.28 18:12:46 WARN  no build target for: /Users/kecci/scala/scala-project/project/project/metals.sbt[0m
+2022.04.28 18:12:46 INFO  skipping build import with status 'Started'[0m
+2022.04.28 18:12:48 INFO  [info] welcome to sbt 1.6.2 (AdoptOpenJDK Java 16.0.1)[0m
+2022.04.28 18:12:54 INFO  [info] loading settings for project scala-project-build-build-build from metals.sbt ...[0m
+2022.04.28 18:12:56 INFO  [info] loading project definition from /Users/kecci/scala/scala-project/project/project/project[0m
+2022.04.28 18:13:25 INFO  [info] loading settings for project scala-project-build-build from metals.sbt ...[0m
+2022.04.28 18:13:25 INFO  [info] loading project definition from /Users/kecci/scala/scala-project/project/project[0m
+2022.04.28 18:13:32 INFO  no build target found for /Users/kecci/scala/scala-project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.1.2[0m
+2022.04.28 18:13:43 INFO  [success] Generated .bloop/scala-project-build-build.json[0m
+2022.04.28 18:13:43 INFO  [success] Total time: 17 s, completed Apr 28, 2022, 6:13:43 PM[0m
+2022.04.28 18:13:46 INFO  [info] loading settings for project scala-project-build from metals.sbt,plugins.sbt ...[0m
+2022.04.28 18:13:46 INFO  [info] loading project definition from /Users/kecci/scala/scala-project/project[0m
+2022.04.28 18:13:56 WARN  no build target for: /Users/kecci/scala/scala-project/build.sbt[0m
+2022.04.28 18:13:58 INFO  time: code lens generation in 1.01s[0m
+2022.04.28 18:14:37 INFO  [success] Generated .bloop/scala-project-build.json[0m
+2022.04.28 18:14:37 INFO  [success] Total time: 52 s, completed Apr 28, 2022, 6:14:38 PM[0m
+2022.04.28 18:14:42 INFO  [info] loading settings for project root from build.sbt ...[0m
+2022.04.28 18:14:42 INFO  [info]   __              __[0m
+2022.04.28 18:14:42 INFO  [info]   \ \     ____   / /____ _ __  __[0m
+2022.04.28 18:14:42 INFO  [info]    \ \   / __ \ / // __ `// / / /[0m
+2022.04.28 18:14:42 INFO  [info]    / /  / /_/ // // /_/ // /_/ /[0m
+2022.04.28 18:14:42 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /[0m
+2022.04.28 18:14:42 INFO  [info]       /_/               /____/[0m
+2022.04.28 18:14:42 INFO  [info] [0m
+2022.04.28 18:14:42 INFO  [info] Version 2.8.15 running Java 16.0.1[0m
+2022.04.28 18:14:42 INFO  [info] [0m
+2022.04.28 18:14:42 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:[0m
+2022.04.28 18:14:42 INFO  [info] https://www.playframework.com/sponsors[0m
+2022.04.28 18:14:42 INFO  [info] [0m
+2022.04.28 18:14:42 INFO  [info] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![0m
+2022.04.28 18:14:42 INFO  [info]   Java version is 16. Play supports only 8, 11 and, experimentally, 17.[0m
+2022.04.28 18:14:42 INFO  [info] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!![0m
+2022.04.28 18:14:42 INFO  [info] [0m
+2022.04.28 18:16:41 INFO  [success] Generated .bloop/root-test.json[0m
+2022.04.28 18:16:41 INFO  [success] Generated .bloop/root.json[0m
+2022.04.28 18:16:41 INFO  [success] Total time: 117 s (01:57), completed Apr 28, 2022, 6:16:41 PM[0m
+2022.04.28 18:16:41 INFO  time: ran 'sbt bloopInstall' in 3m55s[0m
+2022.04.28 18:16:41 INFO  Attempting to connect to the build server...[0m
+2022.04.28 18:17:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/kecci/scala/scala-project/.metals/bsp.trace.json or /Users/kecci/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.04.28 18:17:43 INFO  Attempting to connect to the build server...[0m
+2022.04.28 18:17:43 INFO  Attempting to connect to the build server...[0m
+2022.04.28 18:17:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/kecci/scala/scala-project/project/.metals/bsp.trace.json or /Users/kecci/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.04.28 18:17:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/kecci/scala/scala-project/project/project/.metals/bsp.trace.json or /Users/kecci/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.04.28 18:18:04 ERROR Timeout waiting for 'build/initialize' response[0m
+2022.04.28 18:18:04 WARN  Retrying connection to the build server Bloop[0m
+2022.04.28 18:18:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/kecci/scala/scala-project/project/.metals/bsp.trace.json or /Users/kecci/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.04.28 18:18:04 INFO  time: Connected to build server in 1m22s[0m
+2022.04.28 18:18:04 INFO  Connected to Build server: Bloop v1.5.0[0m
+2022.04.28 18:18:04 INFO  time: Imported build in 0.47s[0m
+2022.04.28 18:18:37 INFO  time: indexed workspace in 32s[0m
+2022.04.28 18:21:48 INFO  time: code lens generation in 4.53s[0m
+2022.04.28 18:21:48 INFO  time: code lens generation in 5.65s[0m
+2022.04.28 18:22:58 INFO  time: code lens generation in 1.55s[0m
+2022.04.28 18:23:28 ERROR code navigation does not work for the file '/Users/kecci/scala/scala-project/app/controllers/HomeController.scala' because the build target root is being compiled. Wait until compilation is finished and try again.[0m
+2022.04.28 18:23:29 INFO  compiling root (7 scala sources and 1 java source)[0m
+2022.04.28 18:23:31 ERROR code navigation does not work for the file '/Users/kecci/scala/scala-project/app/controllers/HomeController.scala' because the build target root is being compiled. Wait until compilation is finished and try again.[0m
+2022.04.28 18:23:31 ERROR code navigation does not work for the file '/Users/kecci/scala/scala-project/app/controllers/HomeController.scala' because the build target root is being compiled. Wait until compilation is finished and try again.[0m
+2022.04.28 18:23:33 WARN  Running javac-semanticdb failed for jar:file:///Users/kecci/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar!/javax/inject/Singleton.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4f933fd1) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4f933fd1
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)[0m
+Apr 28, 2022 6:23:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 44
+2022.04.28 18:23:40 INFO  compiling root (6 scala sources and 1 java source)[0m
+2022.04.28 18:23:59 ERROR IO error while decoding /Users/kecci/scala/scala-project/app/controllers/HomeController.scala with UTF-8: /Users/kecci/scala/scala-project/app/controllers/HomeController.scala (No such file or directory)
+Please try specifying another one using the -encoding option[0m
+2022.04.28 18:24:03 INFO  time: compiled root in 23s[0m
+2022.04.28 18:24:07 INFO  compiling root (6 scala sources and 1 java source)[0m
+2022.04.28 18:24:09 INFO  time: compiled root in 2.02s[0m
+2022.04.28 18:26:50 INFO  compiling root (1 scala source)[0m
+2022.04.28 18:26:52 INFO  time: compiled root in 2.31s[0m
+2022.04.28 18:26:55 INFO  compiling root (1 scala source)[0m
+2022.04.28 18:26:55 INFO  time: compiled root in 0.35s[0m
+2022.04.28 18:27:03 INFO  compiling root (1 scala source)[0m
+2022.04.28 18:27:03 INFO  time: compiled root in 0.23s[0m
+2022.04.28 18:27:10 INFO  compiling root (1 scala source)[0m
+2022.04.28 18:27:10 INFO  time: compiled root in 0.19s[0m
+2022.04.28 18:27:32 INFO  compiling root (1 scala source)[0m
+2022.04.28 18:27:33 INFO  time: compiled root in 1.68s[0m
+2022.04.28 18:27:36 INFO  compiling root (1 scala source)[0m
+2022.04.28 18:27:36 INFO  time: compiled root in 0.26s[0m
+2022.04.28 18:27:42 INFO  compiling root (1 scala source)[0m
+2022.04.28 18:27:42 INFO  time: compiled root in 0.99s[0m
+2022.04.28 18:28:48 INFO  compiling root (2 scala sources)[0m
+2022.04.28 18:28:48 INFO  time: compiled root in 0.28s[0m
+2022.04.28 18:28:49 INFO  compiling root (2 scala sources)[0m
+2022.04.28 18:28:49 INFO  time: compiled root in 0.16s[0m
+2022.04.28 18:28:56 INFO  compiling root (3 scala sources)[0m
+2022.04.28 18:28:56 INFO  time: compiled root in 0.66s[0m
+2022.04.28 18:28:57 INFO  compiling root (3 scala sources)[0m
+2022.04.28 18:28:57 INFO  time: compiled root in 0.35s[0m
+2022.04.28 18:29:06 INFO  compiling root (3 scala sources)[0m
+2022.04.28 18:29:06 INFO  time: compiled root in 0.32s[0m
+2022.04.28 18:29:08 INFO  compiling root (3 scala sources)[0m
+2022.04.28 18:29:08 INFO  time: compiled root in 0.19s[0m
+2022.04.28 18:29:10 INFO  compiling root (3 scala sources)[0m
+2022.04.28 18:29:10 INFO  time: compiled root in 0.38s[0m
+2022.04.28 18:29:24 INFO  compiling root (3 scala sources)[0m
+2022.04.28 18:29:24 INFO  time: compiled root in 0.58s[0m
+2022.04.28 18:29:26 INFO  compiling root (3 scala sources)[0m
+2022.04.28 18:29:26 INFO  time: compiled root in 0.38s[0m
+2022.04.28 18:29:28 INFO  compiling root (3 scala sources)[0m
+2022.04.28 18:29:28 INFO  time: compiled root in 0.27s[0m
+2022.04.28 18:29:30 INFO  compiling root (2 scala sources)[0m
+2022.04.28 18:29:30 INFO  time: compiled root in 0.2s[0m
+2022.04.28 18:30:25 INFO  compiling root (7 scala sources and 1 java source)[0m
+2022.04.28 18:30:35 ERROR An exception has occurred in the compiler (16.0.1). Please file a bug against the Java compiler via the Java bug reporting page (http://bugreport.java.com) after checking the Bug Database (http://bugs.java.com) for duplicates. Include your program, the following diagnostic, and the parameters passed to the Java compiler in your report. Thank you.[0m
+2022.04.28 18:30:35 ERROR java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x2b515c35) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x2b515c35[0m
+2022.04.28 18:30:35 ERROR 	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)[0m
+2022.04.28 18:30:35 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)[0m
+2022.04.28 18:30:35 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)[0m
+2022.04.28 18:30:35 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.prepareCompiler(JavacTaskImpl.java:204)[0m
+2022.04.28 18:30:35 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0(JavacTaskImpl.java:101)[0m
+2022.04.28 18:30:35 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)[0m
+2022.04.28 18:30:35 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:100)[0m
+2022.04.28 18:30:35 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:94)[0m
+2022.04.28 18:30:35 ERROR 	at bloop.CompilerCache$BloopJavaCompiler.run(CompilerCache.scala:307)[0m
+2022.04.28 18:30:35 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.$anonfun$compile$12(AnalyzingJavaCompiler.scala:172)[0m
+2022.04.28 18:30:35 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:30:35 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.timed(AnalyzingJavaCompiler.scala:262)[0m
+2022.04.28 18:30:35 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.compile(AnalyzingJavaCompiler.scala:161)[0m
+2022.04.28 18:30:35 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$9(BloopHighLevelCompiler.scala:167)[0m
+2022.04.28 18:30:35 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:30:35 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)[0m
+2022.04.28 18:30:35 ERROR 	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)[0m
+2022.04.28 18:30:35 ERROR 	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)[0m
+2022.04.28 18:30:35 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)[0m
+2022.04.28 18:30:35 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$8(BloopHighLevelCompiler.scala:160)[0m
+2022.04.28 18:30:35 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:30:35 ERROR 	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)[0m
+2022.04.28 18:30:35 ERROR 	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)[0m
+2022.04.28 18:30:35 ERROR 	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)[0m
+2022.04.28 18:30:35 ERROR 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)[0m
+2022.04.28 18:30:35 ERROR 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)[0m
+2022.04.28 18:30:35 ERROR 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)[0m
+2022.04.28 18:30:35 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)[0m
+2022.04.28 18:30:35 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)[0m
+2022.04.28 18:30:35 ERROR 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)[0m
+2022.04.28 18:30:35 INFO  time: compiled root in 10s[0m
+2022.04.28 18:33:16 INFO  compiling root (7 scala sources and 1 java source)[0m
+2022.04.28 18:33:24 ERROR An exception has occurred in the compiler (16.0.1). Please file a bug against the Java compiler via the Java bug reporting page (http://bugreport.java.com) after checking the Bug Database (http://bugs.java.com) for duplicates. Include your program, the following diagnostic, and the parameters passed to the Java compiler in your report. Thank you.[0m
+2022.04.28 18:33:24 ERROR java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x5651151) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x5651151[0m
+2022.04.28 18:33:24 ERROR 	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)[0m
+2022.04.28 18:33:24 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)[0m
+2022.04.28 18:33:24 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)[0m
+2022.04.28 18:33:24 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.prepareCompiler(JavacTaskImpl.java:204)[0m
+2022.04.28 18:33:24 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0(JavacTaskImpl.java:101)[0m
+2022.04.28 18:33:24 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)[0m
+2022.04.28 18:33:24 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:100)[0m
+2022.04.28 18:33:24 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:94)[0m
+2022.04.28 18:33:24 ERROR 	at bloop.CompilerCache$BloopJavaCompiler.run(CompilerCache.scala:307)[0m
+2022.04.28 18:33:24 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.$anonfun$compile$12(AnalyzingJavaCompiler.scala:172)[0m
+2022.04.28 18:33:24 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:33:24 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.timed(AnalyzingJavaCompiler.scala:262)[0m
+2022.04.28 18:33:24 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.compile(AnalyzingJavaCompiler.scala:161)[0m
+2022.04.28 18:33:24 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$9(BloopHighLevelCompiler.scala:167)[0m
+2022.04.28 18:33:24 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:33:24 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)[0m
+2022.04.28 18:33:24 ERROR 	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)[0m
+2022.04.28 18:33:24 ERROR 	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)[0m
+2022.04.28 18:33:24 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)[0m
+2022.04.28 18:33:24 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$8(BloopHighLevelCompiler.scala:160)[0m
+2022.04.28 18:33:24 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:33:24 ERROR 	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)[0m
+2022.04.28 18:33:24 ERROR 	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)[0m
+2022.04.28 18:33:24 ERROR 	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)[0m
+2022.04.28 18:33:24 ERROR 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)[0m
+2022.04.28 18:33:24 ERROR 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)[0m
+2022.04.28 18:33:24 ERROR 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)[0m
+2022.04.28 18:33:24 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)[0m
+2022.04.28 18:33:24 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)[0m
+2022.04.28 18:33:24 ERROR 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)[0m
+2022.04.28 18:33:24 INFO  time: compiled root in 8.42s[0m
+Apr 28, 2022 6:34:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 317
+2022.04.28 18:36:24 INFO  compiling root (7 scala sources and 1 java source)[0m
+2022.04.28 18:36:35 ERROR An exception has occurred in the compiler (16.0.1). Please file a bug against the Java compiler via the Java bug reporting page (http://bugreport.java.com) after checking the Bug Database (http://bugs.java.com) for duplicates. Include your program, the following diagnostic, and the parameters passed to the Java compiler in your report. Thank you.[0m
+2022.04.28 18:36:35 ERROR java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x6f77fa05) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x6f77fa05[0m
+2022.04.28 18:36:35 ERROR 	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)[0m
+2022.04.28 18:36:35 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)[0m
+2022.04.28 18:36:35 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)[0m
+2022.04.28 18:36:35 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.prepareCompiler(JavacTaskImpl.java:204)[0m
+2022.04.28 18:36:35 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0(JavacTaskImpl.java:101)[0m
+2022.04.28 18:36:35 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)[0m
+2022.04.28 18:36:35 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:100)[0m
+2022.04.28 18:36:35 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:94)[0m
+2022.04.28 18:36:35 ERROR 	at bloop.CompilerCache$BloopJavaCompiler.run(CompilerCache.scala:307)[0m
+2022.04.28 18:36:35 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.$anonfun$compile$12(AnalyzingJavaCompiler.scala:172)[0m
+2022.04.28 18:36:35 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:36:35 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.timed(AnalyzingJavaCompiler.scala:262)[0m
+2022.04.28 18:36:35 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.compile(AnalyzingJavaCompiler.scala:161)[0m
+2022.04.28 18:36:35 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$9(BloopHighLevelCompiler.scala:167)[0m
+2022.04.28 18:36:35 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:36:35 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)[0m
+2022.04.28 18:36:35 ERROR 	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)[0m
+2022.04.28 18:36:35 ERROR 	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)[0m
+2022.04.28 18:36:35 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)[0m
+2022.04.28 18:36:35 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$8(BloopHighLevelCompiler.scala:160)[0m
+2022.04.28 18:36:35 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:36:35 ERROR 	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)[0m
+2022.04.28 18:36:35 ERROR 	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)[0m
+2022.04.28 18:36:35 ERROR 	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)[0m
+2022.04.28 18:36:35 ERROR 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)[0m
+2022.04.28 18:36:35 ERROR 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)[0m
+2022.04.28 18:36:35 ERROR 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)[0m
+2022.04.28 18:36:35 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)[0m
+2022.04.28 18:36:35 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)[0m
+2022.04.28 18:36:35 ERROR 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)[0m
+2022.04.28 18:36:35 INFO  time: compiled root in 10s[0m
+2022.04.28 18:38:04 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:38:09 ERROR An exception has occurred in the compiler (16.0.1). Please file a bug against the Java compiler via the Java bug reporting page (http://bugreport.java.com) after checking the Bug Database (http://bugs.java.com) for duplicates. Include your program, the following diagnostic, and the parameters passed to the Java compiler in your report. Thank you.[0m
+2022.04.28 18:38:09 ERROR java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x38708a6a) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x38708a6a[0m
+2022.04.28 18:38:09 ERROR 	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)[0m
+2022.04.28 18:38:09 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)[0m
+2022.04.28 18:38:09 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)[0m
+2022.04.28 18:38:09 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.prepareCompiler(JavacTaskImpl.java:204)[0m
+2022.04.28 18:38:09 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0(JavacTaskImpl.java:101)[0m
+2022.04.28 18:38:09 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)[0m
+2022.04.28 18:38:09 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:100)[0m
+2022.04.28 18:38:09 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:94)[0m
+2022.04.28 18:38:09 ERROR 	at bloop.CompilerCache$BloopJavaCompiler.run(CompilerCache.scala:307)[0m
+2022.04.28 18:38:09 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.$anonfun$compile$12(AnalyzingJavaCompiler.scala:172)[0m
+2022.04.28 18:38:09 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:38:09 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.timed(AnalyzingJavaCompiler.scala:262)[0m
+2022.04.28 18:38:09 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.compile(AnalyzingJavaCompiler.scala:161)[0m
+2022.04.28 18:38:09 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$9(BloopHighLevelCompiler.scala:167)[0m
+2022.04.28 18:38:09 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:38:09 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)[0m
+2022.04.28 18:38:09 ERROR 	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)[0m
+2022.04.28 18:38:09 ERROR 	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)[0m
+2022.04.28 18:38:09 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)[0m
+2022.04.28 18:38:09 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$8(BloopHighLevelCompiler.scala:160)[0m
+2022.04.28 18:38:09 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:38:09 ERROR 	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)[0m
+2022.04.28 18:38:09 ERROR 	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)[0m
+2022.04.28 18:38:09 ERROR 	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)[0m
+2022.04.28 18:38:09 ERROR 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)[0m
+2022.04.28 18:38:09 ERROR 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)[0m
+2022.04.28 18:38:09 ERROR 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)[0m
+2022.04.28 18:38:09 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)[0m
+2022.04.28 18:38:09 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)[0m
+2022.04.28 18:38:09 ERROR 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)[0m
+2022.04.28 18:38:09 INFO  time: compiled root in 4.46s[0m
+2022.04.28 18:38:10 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:38:13 ERROR An exception has occurred in the compiler (16.0.1). Please file a bug against the Java compiler via the Java bug reporting page (http://bugreport.java.com) after checking the Bug Database (http://bugs.java.com) for duplicates. Include your program, the following diagnostic, and the parameters passed to the Java compiler in your report. Thank you.[0m
+2022.04.28 18:38:13 ERROR java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x68483ab1) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x68483ab1[0m
+2022.04.28 18:38:13 ERROR 	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)[0m
+2022.04.28 18:38:13 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)[0m
+2022.04.28 18:38:13 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)[0m
+2022.04.28 18:38:13 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.prepareCompiler(JavacTaskImpl.java:204)[0m
+2022.04.28 18:38:13 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0(JavacTaskImpl.java:101)[0m
+2022.04.28 18:38:13 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)[0m
+2022.04.28 18:38:13 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:100)[0m
+2022.04.28 18:38:13 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:94)[0m
+2022.04.28 18:38:13 ERROR 	at bloop.CompilerCache$BloopJavaCompiler.run(CompilerCache.scala:307)[0m
+2022.04.28 18:38:13 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.$anonfun$compile$12(AnalyzingJavaCompiler.scala:172)[0m
+2022.04.28 18:38:13 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:38:13 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.timed(AnalyzingJavaCompiler.scala:262)[0m
+2022.04.28 18:38:13 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.compile(AnalyzingJavaCompiler.scala:161)[0m
+2022.04.28 18:38:13 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$9(BloopHighLevelCompiler.scala:167)[0m
+2022.04.28 18:38:13 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:38:13 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)[0m
+2022.04.28 18:38:13 ERROR 	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)[0m
+2022.04.28 18:38:13 ERROR 	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)[0m
+2022.04.28 18:38:13 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)[0m
+2022.04.28 18:38:13 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$8(BloopHighLevelCompiler.scala:160)[0m
+2022.04.28 18:38:13 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:38:13 ERROR 	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)[0m
+2022.04.28 18:38:13 ERROR 	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)[0m
+2022.04.28 18:38:13 ERROR 	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)[0m
+2022.04.28 18:38:13 ERROR 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)[0m
+2022.04.28 18:38:13 ERROR 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)[0m
+2022.04.28 18:38:13 ERROR 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)[0m
+2022.04.28 18:38:13 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)[0m
+2022.04.28 18:38:13 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)[0m
+2022.04.28 18:38:13 ERROR 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)[0m
+2022.04.28 18:38:13 INFO  time: compiled root in 2.67s[0m
+2022.04.28 18:38:13 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:38:16 ERROR An exception has occurred in the compiler (16.0.1). Please file a bug against the Java compiler via the Java bug reporting page (http://bugreport.java.com) after checking the Bug Database (http://bugs.java.com) for duplicates. Include your program, the following diagnostic, and the parameters passed to the Java compiler in your report. Thank you.[0m
+2022.04.28 18:38:16 ERROR java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x22d577ba) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x22d577ba[0m
+2022.04.28 18:38:16 ERROR 	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)[0m
+2022.04.28 18:38:16 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)[0m
+2022.04.28 18:38:16 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)[0m
+2022.04.28 18:38:16 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.prepareCompiler(JavacTaskImpl.java:204)[0m
+2022.04.28 18:38:16 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0(JavacTaskImpl.java:101)[0m
+2022.04.28 18:38:16 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)[0m
+2022.04.28 18:38:16 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:100)[0m
+2022.04.28 18:38:16 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:94)[0m
+2022.04.28 18:38:16 ERROR 	at bloop.CompilerCache$BloopJavaCompiler.run(CompilerCache.scala:307)[0m
+2022.04.28 18:38:16 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.$anonfun$compile$12(AnalyzingJavaCompiler.scala:172)[0m
+2022.04.28 18:38:16 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:38:16 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.timed(AnalyzingJavaCompiler.scala:262)[0m
+2022.04.28 18:38:16 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.compile(AnalyzingJavaCompiler.scala:161)[0m
+2022.04.28 18:38:16 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$9(BloopHighLevelCompiler.scala:167)[0m
+2022.04.28 18:38:16 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:38:16 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)[0m
+2022.04.28 18:38:16 ERROR 	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)[0m
+2022.04.28 18:38:16 ERROR 	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)[0m
+2022.04.28 18:38:16 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)[0m
+2022.04.28 18:38:16 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$8(BloopHighLevelCompiler.scala:160)[0m
+2022.04.28 18:38:16 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:38:16 ERROR 	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)[0m
+2022.04.28 18:38:16 ERROR 	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)[0m
+2022.04.28 18:38:16 ERROR 	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)[0m
+2022.04.28 18:38:16 ERROR 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)[0m
+2022.04.28 18:38:16 ERROR 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)[0m
+2022.04.28 18:38:16 ERROR 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)[0m
+2022.04.28 18:38:16 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)[0m
+2022.04.28 18:38:16 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)[0m
+2022.04.28 18:38:16 ERROR 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)[0m
+2022.04.28 18:38:16 INFO  time: compiled root in 2.74s[0m
+2022.04.28 18:38:16 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:38:17 WARN  failed to generate semanticdb for /Users/kecci/scala/scala-project/app/models/TodoListItem.scala:
+java.nio.file.NoSuchFileException: /Users/kecci/scala/scala-project/app/models/TodoListItem.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:375)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:426)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3272)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.inputs.Input$File.chars$lzycompute(Input.scala:52)
+	at scala.meta.inputs.Input$File.chars(Input.scala:52)
+	at scala.meta.internal.tokenizers.CharArrayReader.<init>(CharArrayReader.scala:28)
+	at scala.meta.internal.tokenizers.LegacyScanner.<init>(LegacyScanner.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:22)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:961)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.parsers.ScannerTokens$.apply(ScannerTokens.scala:401)
+	at scala.meta.internal.parsers.ScalametaParser.<init>(ScalametaParser.scala:37)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:35)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:203)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:54)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.saveSemanticdbForCompilationUnit(SemanticdbPipeline.scala:60)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.apply(SemanticdbPipeline.scala:67)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:459)
+	at scala.tools.nsc.Global$GlobalPhase.run(Global.scala:406)
+	at scala.meta.internal.semanticdb.scalac.SemanticdbPipeline$SemanticdbTyperComponent$ComputeSemanticdbPhase.run(SemanticdbPipeline.scala:77)
+	at scala.tools.nsc.Global$Run.compileUnitsInternal(Global.scala:1524)
+	at scala.tools.nsc.Global$Run.compileUnits(Global.scala:1508)
+	at scala.tools.nsc.Global$Run.compileSources(Global.scala:1500)
+	at scala.tools.nsc.Global$Run.compileFiles(Global.scala:1613)
+	at xsbt.CachedCompiler0.run(CompilerBridge.scala:163)
+	at xsbt.CachedCompiler0.run(CompilerBridge.scala:134)
+	at xsbt.CompilerBridge.run(CompilerBridge.scala:39)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.compileSources$1(BloopHighLevelCompiler.scala:133)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$7(BloopHighLevelCompiler.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)
+	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)
+	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)
+	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$6(BloopHighLevelCompiler.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)
+	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)
+	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[0m
+2022.04.28 18:38:19 ERROR An exception has occurred in the compiler (16.0.1). Please file a bug against the Java compiler via the Java bug reporting page (http://bugreport.java.com) after checking the Bug Database (http://bugs.java.com) for duplicates. Include your program, the following diagnostic, and the parameters passed to the Java compiler in your report. Thank you.[0m
+2022.04.28 18:38:19 ERROR java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x55f05f89) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x55f05f89[0m
+2022.04.28 18:38:19 ERROR 	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)[0m
+2022.04.28 18:38:19 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)[0m
+2022.04.28 18:38:19 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)[0m
+2022.04.28 18:38:19 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.prepareCompiler(JavacTaskImpl.java:204)[0m
+2022.04.28 18:38:19 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0(JavacTaskImpl.java:101)[0m
+2022.04.28 18:38:19 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)[0m
+2022.04.28 18:38:19 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:100)[0m
+2022.04.28 18:38:19 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:94)[0m
+2022.04.28 18:38:19 ERROR 	at bloop.CompilerCache$BloopJavaCompiler.run(CompilerCache.scala:307)[0m
+2022.04.28 18:38:19 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.$anonfun$compile$12(AnalyzingJavaCompiler.scala:172)[0m
+2022.04.28 18:38:19 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:38:19 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.timed(AnalyzingJavaCompiler.scala:262)[0m
+2022.04.28 18:38:19 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.compile(AnalyzingJavaCompiler.scala:161)[0m
+2022.04.28 18:38:19 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$9(BloopHighLevelCompiler.scala:167)[0m
+2022.04.28 18:38:19 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:38:19 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)[0m
+2022.04.28 18:38:19 ERROR 	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)[0m
+2022.04.28 18:38:19 ERROR 	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)[0m
+2022.04.28 18:38:19 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)[0m
+2022.04.28 18:38:19 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$8(BloopHighLevelCompiler.scala:160)[0m
+2022.04.28 18:38:19 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:38:19 ERROR 	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)[0m
+2022.04.28 18:38:19 ERROR 	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)[0m
+2022.04.28 18:38:19 ERROR 	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)[0m
+2022.04.28 18:38:19 ERROR 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)[0m
+2022.04.28 18:38:19 ERROR 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)[0m
+2022.04.28 18:38:19 ERROR 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)[0m
+2022.04.28 18:38:19 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)[0m
+2022.04.28 18:38:19 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)[0m
+2022.04.28 18:38:19 ERROR 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)[0m
+2022.04.28 18:38:19 INFO  time: compiled root in 2.41s[0m
+2022.04.28 18:38:32 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:38:34 ERROR An exception has occurred in the compiler (16.0.1). Please file a bug against the Java compiler via the Java bug reporting page (http://bugreport.java.com) after checking the Bug Database (http://bugs.java.com) for duplicates. Include your program, the following diagnostic, and the parameters passed to the Java compiler in your report. Thank you.[0m
+2022.04.28 18:38:34 ERROR java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x7c64a58a) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x7c64a58a[0m
+2022.04.28 18:38:34 ERROR 	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)[0m
+2022.04.28 18:38:34 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)[0m
+2022.04.28 18:38:34 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)[0m
+2022.04.28 18:38:34 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.prepareCompiler(JavacTaskImpl.java:204)[0m
+2022.04.28 18:38:34 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0(JavacTaskImpl.java:101)[0m
+2022.04.28 18:38:34 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)[0m
+2022.04.28 18:38:34 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:100)[0m
+2022.04.28 18:38:34 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:94)[0m
+2022.04.28 18:38:34 ERROR 	at bloop.CompilerCache$BloopJavaCompiler.run(CompilerCache.scala:307)[0m
+2022.04.28 18:38:34 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.$anonfun$compile$12(AnalyzingJavaCompiler.scala:172)[0m
+2022.04.28 18:38:34 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:38:34 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.timed(AnalyzingJavaCompiler.scala:262)[0m
+2022.04.28 18:38:34 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.compile(AnalyzingJavaCompiler.scala:161)[0m
+2022.04.28 18:38:34 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$9(BloopHighLevelCompiler.scala:167)[0m
+2022.04.28 18:38:34 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:38:34 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)[0m
+2022.04.28 18:38:34 ERROR 	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)[0m
+2022.04.28 18:38:34 ERROR 	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)[0m
+2022.04.28 18:38:34 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)[0m
+2022.04.28 18:38:34 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$8(BloopHighLevelCompiler.scala:160)[0m
+2022.04.28 18:38:34 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:38:34 ERROR 	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)[0m
+2022.04.28 18:38:34 ERROR 	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)[0m
+2022.04.28 18:38:34 ERROR 	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)[0m
+2022.04.28 18:38:34 ERROR 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)[0m
+2022.04.28 18:38:34 ERROR 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)[0m
+2022.04.28 18:38:34 ERROR 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)[0m
+2022.04.28 18:38:34 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)[0m
+2022.04.28 18:38:34 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)[0m
+2022.04.28 18:38:34 ERROR 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)[0m
+2022.04.28 18:38:34 INFO  time: compiled root in 2.36s[0m
+2022.04.28 18:38:34 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:38:37 ERROR An exception has occurred in the compiler (16.0.1). Please file a bug against the Java compiler via the Java bug reporting page (http://bugreport.java.com) after checking the Bug Database (http://bugs.java.com) for duplicates. Include your program, the following diagnostic, and the parameters passed to the Java compiler in your report. Thank you.[0m
+2022.04.28 18:38:37 ERROR java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x32f784dd) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x32f784dd[0m
+2022.04.28 18:38:37 ERROR 	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)[0m
+2022.04.28 18:38:37 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)[0m
+2022.04.28 18:38:37 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)[0m
+2022.04.28 18:38:37 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.prepareCompiler(JavacTaskImpl.java:204)[0m
+2022.04.28 18:38:37 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0(JavacTaskImpl.java:101)[0m
+2022.04.28 18:38:37 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)[0m
+2022.04.28 18:38:37 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:100)[0m
+2022.04.28 18:38:37 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:94)[0m
+2022.04.28 18:38:37 ERROR 	at bloop.CompilerCache$BloopJavaCompiler.run(CompilerCache.scala:307)[0m
+2022.04.28 18:38:37 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.$anonfun$compile$12(AnalyzingJavaCompiler.scala:172)[0m
+2022.04.28 18:38:37 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:38:37 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.timed(AnalyzingJavaCompiler.scala:262)[0m
+2022.04.28 18:38:37 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.compile(AnalyzingJavaCompiler.scala:161)[0m
+2022.04.28 18:38:37 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$9(BloopHighLevelCompiler.scala:167)[0m
+2022.04.28 18:38:37 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:38:37 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)[0m
+2022.04.28 18:38:37 ERROR 	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)[0m
+2022.04.28 18:38:37 ERROR 	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)[0m
+2022.04.28 18:38:37 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)[0m
+2022.04.28 18:38:37 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$8(BloopHighLevelCompiler.scala:160)[0m
+2022.04.28 18:38:37 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:38:37 ERROR 	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)[0m
+2022.04.28 18:38:37 ERROR 	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)[0m
+2022.04.28 18:38:37 ERROR 	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)[0m
+2022.04.28 18:38:37 ERROR 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)[0m
+2022.04.28 18:38:37 ERROR 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)[0m
+2022.04.28 18:38:37 ERROR 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)[0m
+2022.04.28 18:38:37 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)[0m
+2022.04.28 18:38:37 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)[0m
+2022.04.28 18:38:37 ERROR 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)[0m
+2022.04.28 18:38:37 INFO  time: compiled root in 2.61s[0m
+2022.04.28 18:38:57 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:39:00 ERROR An exception has occurred in the compiler (16.0.1). Please file a bug against the Java compiler via the Java bug reporting page (http://bugreport.java.com) after checking the Bug Database (http://bugs.java.com) for duplicates. Include your program, the following diagnostic, and the parameters passed to the Java compiler in your report. Thank you.[0m
+2022.04.28 18:39:00 ERROR java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x29ae87ef) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x29ae87ef[0m
+2022.04.28 18:39:00 ERROR 	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)[0m
+2022.04.28 18:39:00 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)[0m
+2022.04.28 18:39:00 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)[0m
+2022.04.28 18:39:00 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.prepareCompiler(JavacTaskImpl.java:204)[0m
+2022.04.28 18:39:00 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0(JavacTaskImpl.java:101)[0m
+2022.04.28 18:39:00 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)[0m
+2022.04.28 18:39:00 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:100)[0m
+2022.04.28 18:39:00 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:94)[0m
+2022.04.28 18:39:00 ERROR 	at bloop.CompilerCache$BloopJavaCompiler.run(CompilerCache.scala:307)[0m
+2022.04.28 18:39:00 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.$anonfun$compile$12(AnalyzingJavaCompiler.scala:172)[0m
+2022.04.28 18:39:00 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:39:00 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.timed(AnalyzingJavaCompiler.scala:262)[0m
+2022.04.28 18:39:00 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.compile(AnalyzingJavaCompiler.scala:161)[0m
+2022.04.28 18:39:00 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$9(BloopHighLevelCompiler.scala:167)[0m
+2022.04.28 18:39:00 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:39:00 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)[0m
+2022.04.28 18:39:00 ERROR 	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)[0m
+2022.04.28 18:39:00 ERROR 	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)[0m
+2022.04.28 18:39:00 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)[0m
+2022.04.28 18:39:00 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$8(BloopHighLevelCompiler.scala:160)[0m
+2022.04.28 18:39:00 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:39:00 ERROR 	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)[0m
+2022.04.28 18:39:00 ERROR 	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)[0m
+2022.04.28 18:39:00 ERROR 	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)[0m
+2022.04.28 18:39:00 ERROR 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)[0m
+2022.04.28 18:39:00 ERROR 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)[0m
+2022.04.28 18:39:00 ERROR 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)[0m
+2022.04.28 18:39:00 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)[0m
+2022.04.28 18:39:00 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)[0m
+2022.04.28 18:39:00 ERROR 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)[0m
+2022.04.28 18:39:00 INFO  time: compiled root in 3s[0m
+2022.04.28 18:39:01 INFO  compiling root (8 scala sources and 1 java source)[0m
+Apr 28, 2022 6:39:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 376
+Apr 28, 2022 6:39:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 378
+Apr 28, 2022 6:39:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 379
+2022.04.28 18:39:06 ERROR An exception has occurred in the compiler (16.0.1). Please file a bug against the Java compiler via the Java bug reporting page (http://bugreport.java.com) after checking the Bug Database (http://bugs.java.com) for duplicates. Include your program, the following diagnostic, and the parameters passed to the Java compiler in your report. Thank you.[0m
+2022.04.28 18:39:06 ERROR java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x5bc17e4d) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x5bc17e4d[0m
+2022.04.28 18:39:06 ERROR 	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)[0m
+2022.04.28 18:39:06 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)[0m
+2022.04.28 18:39:06 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)[0m
+2022.04.28 18:39:06 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.prepareCompiler(JavacTaskImpl.java:204)[0m
+2022.04.28 18:39:06 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0(JavacTaskImpl.java:101)[0m
+2022.04.28 18:39:06 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)[0m
+2022.04.28 18:39:06 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:100)[0m
+2022.04.28 18:39:06 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:94)[0m
+2022.04.28 18:39:06 ERROR 	at bloop.CompilerCache$BloopJavaCompiler.run(CompilerCache.scala:307)[0m
+2022.04.28 18:39:06 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.$anonfun$compile$12(AnalyzingJavaCompiler.scala:172)[0m
+2022.04.28 18:39:06 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:39:06 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.timed(AnalyzingJavaCompiler.scala:262)[0m
+2022.04.28 18:39:06 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.compile(AnalyzingJavaCompiler.scala:161)[0m
+2022.04.28 18:39:06 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$9(BloopHighLevelCompiler.scala:167)[0m
+2022.04.28 18:39:06 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:39:06 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)[0m
+2022.04.28 18:39:06 ERROR 	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)[0m
+2022.04.28 18:39:06 ERROR 	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)[0m
+2022.04.28 18:39:06 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)[0m
+2022.04.28 18:39:06 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$8(BloopHighLevelCompiler.scala:160)[0m
+2022.04.28 18:39:06 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:39:06 ERROR 	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)[0m
+2022.04.28 18:39:06 ERROR 	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)[0m
+2022.04.28 18:39:06 ERROR 	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)[0m
+2022.04.28 18:39:06 ERROR 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)[0m
+2022.04.28 18:39:06 ERROR 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)[0m
+2022.04.28 18:39:06 ERROR 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)[0m
+2022.04.28 18:39:06 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)[0m
+2022.04.28 18:39:06 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)[0m
+2022.04.28 18:39:06 ERROR 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)[0m
+2022.04.28 18:39:06 INFO  time: compiled root in 4.55s[0m
+2022.04.28 18:39:07 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:39:09 INFO  time: compiled root in 1.88s[0m
+2022.04.28 18:39:16 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:39:16 INFO  time: compiled root in 0.59s[0m
+2022.04.28 18:39:19 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:39:19 INFO  time: compiled root in 0.89s[0m
+2022.04.28 18:39:21 INFO  file:///Users/kecci/scala/scala-project/app/controllers/TodoListController.scala:9:32: stale bloop error: not found: value mutable
+    private val todoList = new mutable.ListBuffer[TodoListItem]()
+                               ^^^^^^^[0m
+2022.04.28 18:39:22 INFO  file:///Users/kecci/scala/scala-project/app/controllers/TodoListController.scala:9:32: stale bloop error: not found: value mutable
+    private val todoList = new mutable.ListBuffer[TodoListItem]()
+                               ^^^^^^^[0m
+2022.04.28 18:39:22 INFO  file:///Users/kecci/scala/scala-project/app/controllers/TodoListController.scala:9:32: stale bloop error: not found: value mutable
+    private val todoList = new mutable.ListBuffer[TodoListItem]()
+                               ^^^^^^^[0m
+2022.04.28 18:39:22 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:39:22 INFO  file:///Users/kecci/scala/scala-project/app/controllers/TodoListController.scala:9:32: stale bloop error: not found: value mutable
+    private val todoList = new mutable.ListBuffer[TodoListItem]()
+                               ^^^^^^^[0m
+2022.04.28 18:39:24 INFO  time: compiled root in 1.98s[0m
+2022.04.28 18:39:24 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:39:24 INFO  time: compiled root in 0.71s[0m
+2022.04.28 18:39:25 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:39:25 INFO  time: compiled root in 0.87s[0m
+Apr 28, 2022 6:39:30 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.04.28 18:40:08 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:40:09 INFO  time: compiled root in 1.47s[0m
+2022.04.28 18:40:16 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:40:17 INFO  time: compiled root in 1.08s[0m
+2022.04.28 18:40:17 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:40:17 INFO  time: compiled root in 0.4s[0m
+Apr 28, 2022 6:40:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 479
+2022.04.28 18:40:28 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:40:28 INFO  time: compiled root in 0.55s[0m
+2022.04.28 18:41:04 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:41:04 INFO  time: compiled root in 0.85s[0m
+2022.04.28 18:41:12 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:41:13 INFO  time: compiled root in 1.04s[0m
+2022.04.28 18:41:15 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:41:17 INFO  time: compiled root in 2.13s[0m
+2022.04.28 18:41:24 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:41:29 ERROR An exception has occurred in the compiler (16.0.1). Please file a bug against the Java compiler via the Java bug reporting page (http://bugreport.java.com) after checking the Bug Database (http://bugs.java.com) for duplicates. Include your program, the following diagnostic, and the parameters passed to the Java compiler in your report. Thank you.[0m
+2022.04.28 18:41:29 ERROR java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0xf47718d) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0xf47718d[0m
+2022.04.28 18:41:29 ERROR 	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)[0m
+2022.04.28 18:41:29 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)[0m
+2022.04.28 18:41:29 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)[0m
+2022.04.28 18:41:29 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.prepareCompiler(JavacTaskImpl.java:204)[0m
+2022.04.28 18:41:29 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0(JavacTaskImpl.java:101)[0m
+2022.04.28 18:41:29 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)[0m
+2022.04.28 18:41:29 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:100)[0m
+2022.04.28 18:41:29 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:94)[0m
+2022.04.28 18:41:29 ERROR 	at bloop.CompilerCache$BloopJavaCompiler.run(CompilerCache.scala:307)[0m
+2022.04.28 18:41:29 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.$anonfun$compile$12(AnalyzingJavaCompiler.scala:172)[0m
+2022.04.28 18:41:29 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:41:29 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.timed(AnalyzingJavaCompiler.scala:262)[0m
+2022.04.28 18:41:29 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.compile(AnalyzingJavaCompiler.scala:161)[0m
+2022.04.28 18:41:29 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$9(BloopHighLevelCompiler.scala:167)[0m
+2022.04.28 18:41:29 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:41:29 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)[0m
+2022.04.28 18:41:29 ERROR 	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)[0m
+2022.04.28 18:41:29 ERROR 	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)[0m
+2022.04.28 18:41:29 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)[0m
+2022.04.28 18:41:29 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$8(BloopHighLevelCompiler.scala:160)[0m
+2022.04.28 18:41:29 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:41:29 ERROR 	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)[0m
+2022.04.28 18:41:29 ERROR 	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)[0m
+2022.04.28 18:41:29 ERROR 	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)[0m
+2022.04.28 18:41:29 ERROR 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)[0m
+2022.04.28 18:41:29 ERROR 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)[0m
+2022.04.28 18:41:29 ERROR 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)[0m
+2022.04.28 18:41:29 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)[0m
+2022.04.28 18:41:29 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)[0m
+2022.04.28 18:41:29 ERROR 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)[0m
+2022.04.28 18:41:29 INFO  time: compiled root in 5s[0m
+2022.04.28 18:43:14 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:43:17 ERROR An exception has occurred in the compiler (16.0.1). Please file a bug against the Java compiler via the Java bug reporting page (http://bugreport.java.com) after checking the Bug Database (http://bugs.java.com) for duplicates. Include your program, the following diagnostic, and the parameters passed to the Java compiler in your report. Thank you.[0m
+2022.04.28 18:43:17 ERROR java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x6583672f) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x6583672f[0m
+2022.04.28 18:43:17 ERROR 	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)[0m
+2022.04.28 18:43:17 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)[0m
+2022.04.28 18:43:17 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)[0m
+2022.04.28 18:43:17 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.prepareCompiler(JavacTaskImpl.java:204)[0m
+2022.04.28 18:43:17 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0(JavacTaskImpl.java:101)[0m
+2022.04.28 18:43:17 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)[0m
+2022.04.28 18:43:17 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:100)[0m
+2022.04.28 18:43:17 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:94)[0m
+2022.04.28 18:43:17 ERROR 	at bloop.CompilerCache$BloopJavaCompiler.run(CompilerCache.scala:307)[0m
+2022.04.28 18:43:17 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.$anonfun$compile$12(AnalyzingJavaCompiler.scala:172)[0m
+2022.04.28 18:43:17 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:43:17 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.timed(AnalyzingJavaCompiler.scala:262)[0m
+2022.04.28 18:43:17 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.compile(AnalyzingJavaCompiler.scala:161)[0m
+2022.04.28 18:43:17 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$9(BloopHighLevelCompiler.scala:167)[0m
+2022.04.28 18:43:17 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:43:17 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)[0m
+2022.04.28 18:43:17 ERROR 	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)[0m
+2022.04.28 18:43:17 ERROR 	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)[0m
+2022.04.28 18:43:17 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)[0m
+2022.04.28 18:43:17 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$8(BloopHighLevelCompiler.scala:160)[0m
+2022.04.28 18:43:17 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:43:17 ERROR 	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)[0m
+2022.04.28 18:43:17 ERROR 	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)[0m
+2022.04.28 18:43:17 ERROR 	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)[0m
+2022.04.28 18:43:17 ERROR 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)[0m
+2022.04.28 18:43:17 ERROR 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)[0m
+2022.04.28 18:43:17 ERROR 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)[0m
+2022.04.28 18:43:17 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)[0m
+2022.04.28 18:43:17 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)[0m
+2022.04.28 18:43:17 ERROR 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)[0m
+2022.04.28 18:43:17 INFO  time: compiled root in 3.8s[0m
+2022.04.28 18:43:17 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:43:20 ERROR An exception has occurred in the compiler (16.0.1). Please file a bug against the Java compiler via the Java bug reporting page (http://bugreport.java.com) after checking the Bug Database (http://bugs.java.com) for duplicates. Include your program, the following diagnostic, and the parameters passed to the Java compiler in your report. Thank you.[0m
+2022.04.28 18:43:20 ERROR java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x63045069) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x63045069[0m
+2022.04.28 18:43:20 ERROR 	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)[0m
+2022.04.28 18:43:20 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)[0m
+2022.04.28 18:43:20 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)[0m
+2022.04.28 18:43:20 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.prepareCompiler(JavacTaskImpl.java:204)[0m
+2022.04.28 18:43:20 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0(JavacTaskImpl.java:101)[0m
+2022.04.28 18:43:20 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)[0m
+2022.04.28 18:43:20 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:100)[0m
+2022.04.28 18:43:20 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:94)[0m
+2022.04.28 18:43:20 ERROR 	at bloop.CompilerCache$BloopJavaCompiler.run(CompilerCache.scala:307)[0m
+2022.04.28 18:43:20 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.$anonfun$compile$12(AnalyzingJavaCompiler.scala:172)[0m
+2022.04.28 18:43:20 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:43:20 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.timed(AnalyzingJavaCompiler.scala:262)[0m
+2022.04.28 18:43:20 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.compile(AnalyzingJavaCompiler.scala:161)[0m
+2022.04.28 18:43:20 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$9(BloopHighLevelCompiler.scala:167)[0m
+2022.04.28 18:43:20 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:43:20 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)[0m
+2022.04.28 18:43:20 ERROR 	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)[0m
+2022.04.28 18:43:20 ERROR 	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)[0m
+2022.04.28 18:43:20 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)[0m
+2022.04.28 18:43:20 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$8(BloopHighLevelCompiler.scala:160)[0m
+2022.04.28 18:43:20 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:43:20 ERROR 	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)[0m
+2022.04.28 18:43:20 ERROR 	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)[0m
+2022.04.28 18:43:20 ERROR 	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)[0m
+2022.04.28 18:43:20 ERROR 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)[0m
+2022.04.28 18:43:20 ERROR 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)[0m
+2022.04.28 18:43:20 ERROR 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)[0m
+2022.04.28 18:43:20 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)[0m
+2022.04.28 18:43:20 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)[0m
+2022.04.28 18:43:20 ERROR 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)[0m
+2022.04.28 18:43:20 INFO  time: compiled root in 2.56s[0m
+2022.04.28 18:43:24 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:43:27 ERROR An exception has occurred in the compiler (16.0.1). Please file a bug against the Java compiler via the Java bug reporting page (http://bugreport.java.com) after checking the Bug Database (http://bugs.java.com) for duplicates. Include your program, the following diagnostic, and the parameters passed to the Java compiler in your report. Thank you.[0m
+2022.04.28 18:43:27 ERROR java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x142397ed) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x142397ed[0m
+2022.04.28 18:43:27 ERROR 	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)[0m
+2022.04.28 18:43:27 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)[0m
+2022.04.28 18:43:27 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)[0m
+2022.04.28 18:43:27 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.prepareCompiler(JavacTaskImpl.java:204)[0m
+2022.04.28 18:43:27 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0(JavacTaskImpl.java:101)[0m
+2022.04.28 18:43:27 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)[0m
+2022.04.28 18:43:27 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:100)[0m
+2022.04.28 18:43:27 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:94)[0m
+2022.04.28 18:43:27 ERROR 	at bloop.CompilerCache$BloopJavaCompiler.run(CompilerCache.scala:307)[0m
+2022.04.28 18:43:27 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.$anonfun$compile$12(AnalyzingJavaCompiler.scala:172)[0m
+2022.04.28 18:43:27 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:43:27 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.timed(AnalyzingJavaCompiler.scala:262)[0m
+2022.04.28 18:43:27 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.compile(AnalyzingJavaCompiler.scala:161)[0m
+2022.04.28 18:43:27 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$9(BloopHighLevelCompiler.scala:167)[0m
+2022.04.28 18:43:27 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:43:27 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)[0m
+2022.04.28 18:43:27 ERROR 	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)[0m
+2022.04.28 18:43:27 ERROR 	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)[0m
+2022.04.28 18:43:27 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)[0m
+2022.04.28 18:43:27 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$8(BloopHighLevelCompiler.scala:160)[0m
+2022.04.28 18:43:27 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:43:27 ERROR 	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)[0m
+2022.04.28 18:43:27 ERROR 	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)[0m
+2022.04.28 18:43:27 ERROR 	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)[0m
+2022.04.28 18:43:27 ERROR 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)[0m
+2022.04.28 18:43:27 ERROR 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)[0m
+2022.04.28 18:43:27 ERROR 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)[0m
+2022.04.28 18:43:27 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)[0m
+2022.04.28 18:43:27 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)[0m
+2022.04.28 18:43:27 ERROR 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)[0m
+2022.04.28 18:43:27 INFO  time: compiled root in 3.34s[0m
+2022.04.28 18:43:34 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:43:37 ERROR An exception has occurred in the compiler (16.0.1). Please file a bug against the Java compiler via the Java bug reporting page (http://bugreport.java.com) after checking the Bug Database (http://bugs.java.com) for duplicates. Include your program, the following diagnostic, and the parameters passed to the Java compiler in your report. Thank you.[0m
+2022.04.28 18:43:37 ERROR java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x45654243) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x45654243[0m
+2022.04.28 18:43:37 ERROR 	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)[0m
+2022.04.28 18:43:37 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)[0m
+2022.04.28 18:43:37 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)[0m
+2022.04.28 18:43:37 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.prepareCompiler(JavacTaskImpl.java:204)[0m
+2022.04.28 18:43:37 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0(JavacTaskImpl.java:101)[0m
+2022.04.28 18:43:37 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)[0m
+2022.04.28 18:43:37 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:100)[0m
+2022.04.28 18:43:37 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:94)[0m
+2022.04.28 18:43:37 ERROR 	at bloop.CompilerCache$BloopJavaCompiler.run(CompilerCache.scala:307)[0m
+2022.04.28 18:43:37 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.$anonfun$compile$12(AnalyzingJavaCompiler.scala:172)[0m
+2022.04.28 18:43:37 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:43:37 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.timed(AnalyzingJavaCompiler.scala:262)[0m
+2022.04.28 18:43:37 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.compile(AnalyzingJavaCompiler.scala:161)[0m
+2022.04.28 18:43:37 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$9(BloopHighLevelCompiler.scala:167)[0m
+2022.04.28 18:43:37 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:43:37 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)[0m
+2022.04.28 18:43:37 ERROR 	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)[0m
+2022.04.28 18:43:37 ERROR 	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)[0m
+2022.04.28 18:43:37 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)[0m
+2022.04.28 18:43:37 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$8(BloopHighLevelCompiler.scala:160)[0m
+2022.04.28 18:43:37 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:43:37 ERROR 	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)[0m
+2022.04.28 18:43:37 ERROR 	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)[0m
+2022.04.28 18:43:37 ERROR 	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)[0m
+2022.04.28 18:43:37 ERROR 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)[0m
+2022.04.28 18:43:37 ERROR 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)[0m
+2022.04.28 18:43:37 ERROR 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)[0m
+2022.04.28 18:43:37 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)[0m
+2022.04.28 18:43:37 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)[0m
+2022.04.28 18:43:37 ERROR 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)[0m
+2022.04.28 18:43:37 INFO  time: compiled root in 2.64s[0m
+2022.04.28 18:43:37 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:43:39 ERROR An exception has occurred in the compiler (16.0.1). Please file a bug against the Java compiler via the Java bug reporting page (http://bugreport.java.com) after checking the Bug Database (http://bugs.java.com) for duplicates. Include your program, the following diagnostic, and the parameters passed to the Java compiler in your report. Thank you.[0m
+2022.04.28 18:43:39 ERROR java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x2307f29b) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x2307f29b[0m
+2022.04.28 18:43:39 ERROR 	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)[0m
+2022.04.28 18:43:39 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)[0m
+2022.04.28 18:43:39 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)[0m
+2022.04.28 18:43:39 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.prepareCompiler(JavacTaskImpl.java:204)[0m
+2022.04.28 18:43:39 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0(JavacTaskImpl.java:101)[0m
+2022.04.28 18:43:39 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)[0m
+2022.04.28 18:43:39 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:100)[0m
+2022.04.28 18:43:39 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:94)[0m
+2022.04.28 18:43:39 ERROR 	at bloop.CompilerCache$BloopJavaCompiler.run(CompilerCache.scala:307)[0m
+2022.04.28 18:43:39 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.$anonfun$compile$12(AnalyzingJavaCompiler.scala:172)[0m
+2022.04.28 18:43:39 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:43:39 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.timed(AnalyzingJavaCompiler.scala:262)[0m
+2022.04.28 18:43:39 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.compile(AnalyzingJavaCompiler.scala:161)[0m
+2022.04.28 18:43:39 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$9(BloopHighLevelCompiler.scala:167)[0m
+2022.04.28 18:43:39 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:43:39 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)[0m
+2022.04.28 18:43:39 ERROR 	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)[0m
+2022.04.28 18:43:39 ERROR 	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)[0m
+2022.04.28 18:43:39 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)[0m
+2022.04.28 18:43:39 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$8(BloopHighLevelCompiler.scala:160)[0m
+2022.04.28 18:43:39 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:43:39 ERROR 	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)[0m
+2022.04.28 18:43:39 ERROR 	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)[0m
+2022.04.28 18:43:39 ERROR 	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)[0m
+2022.04.28 18:43:39 ERROR 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)[0m
+2022.04.28 18:43:39 ERROR 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)[0m
+2022.04.28 18:43:39 ERROR 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)[0m
+2022.04.28 18:43:39 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)[0m
+2022.04.28 18:43:39 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)[0m
+2022.04.28 18:43:39 ERROR 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)[0m
+2022.04.28 18:43:39 INFO  time: compiled root in 1.7s[0m
+2022.04.28 18:43:39 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:43:41 ERROR An exception has occurred in the compiler (16.0.1). Please file a bug against the Java compiler via the Java bug reporting page (http://bugreport.java.com) after checking the Bug Database (http://bugs.java.com) for duplicates. Include your program, the following diagnostic, and the parameters passed to the Java compiler in your report. Thank you.[0m
+2022.04.28 18:43:41 ERROR java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x613cd010) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x613cd010[0m
+2022.04.28 18:43:41 ERROR 	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)[0m
+2022.04.28 18:43:41 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)[0m
+2022.04.28 18:43:41 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)[0m
+2022.04.28 18:43:41 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.prepareCompiler(JavacTaskImpl.java:204)[0m
+2022.04.28 18:43:41 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0(JavacTaskImpl.java:101)[0m
+2022.04.28 18:43:41 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)[0m
+2022.04.28 18:43:41 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:100)[0m
+2022.04.28 18:43:41 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:94)[0m
+2022.04.28 18:43:41 ERROR 	at bloop.CompilerCache$BloopJavaCompiler.run(CompilerCache.scala:307)[0m
+2022.04.28 18:43:41 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.$anonfun$compile$12(AnalyzingJavaCompiler.scala:172)[0m
+2022.04.28 18:43:41 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:43:41 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.timed(AnalyzingJavaCompiler.scala:262)[0m
+2022.04.28 18:43:41 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.compile(AnalyzingJavaCompiler.scala:161)[0m
+2022.04.28 18:43:41 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$9(BloopHighLevelCompiler.scala:167)[0m
+2022.04.28 18:43:41 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:43:41 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)[0m
+2022.04.28 18:43:41 ERROR 	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)[0m
+2022.04.28 18:43:41 ERROR 	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)[0m
+2022.04.28 18:43:41 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)[0m
+2022.04.28 18:43:41 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$8(BloopHighLevelCompiler.scala:160)[0m
+2022.04.28 18:43:41 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:43:41 ERROR 	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)[0m
+2022.04.28 18:43:41 ERROR 	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)[0m
+2022.04.28 18:43:41 ERROR 	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)[0m
+2022.04.28 18:43:41 ERROR 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)[0m
+2022.04.28 18:43:41 ERROR 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)[0m
+2022.04.28 18:43:41 ERROR 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)[0m
+2022.04.28 18:43:41 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)[0m
+2022.04.28 18:43:41 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)[0m
+2022.04.28 18:43:41 ERROR 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)[0m
+2022.04.28 18:43:41 INFO  time: compiled root in 1.56s[0m
+2022.04.28 18:44:33 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:44:37 INFO  compiling root (8 scala sources and 1 java source)[0m
+2022.04.28 18:44:51 ERROR An exception has occurred in the compiler (16.0.1). Please file a bug against the Java compiler via the Java bug reporting page (http://bugreport.java.com) after checking the Bug Database (http://bugs.java.com) for duplicates. Include your program, the following diagnostic, and the parameters passed to the Java compiler in your report. Thank you.[0m
+2022.04.28 18:44:51 ERROR An exception has occurred in the compiler (16.0.1). Please file a bug against the Java compiler via the Java bug reporting page (http://bugreport.java.com) after checking the Bug Database (http://bugs.java.com) for duplicates. Include your program, the following diagnostic, and the parameters passed to the Java compiler in your report. Thank you.[0m
+2022.04.28 18:44:51 ERROR java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x11d2ce94) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x11d2ce94[0m
+2022.04.28 18:44:51 ERROR java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x78fd3b14) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x78fd3b14[0m
+2022.04.28 18:44:51 ERROR 	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)[0m
+2022.04.28 18:44:51 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)[0m
+2022.04.28 18:44:51 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)[0m
+2022.04.28 18:44:51 ERROR 	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)[0m
+2022.04.28 18:44:51 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.prepareCompiler(JavacTaskImpl.java:204)[0m
+2022.04.28 18:44:51 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)[0m
+2022.04.28 18:44:51 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0(JavacTaskImpl.java:101)[0m
+2022.04.28 18:44:51 ERROR 	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)[0m
+2022.04.28 18:44:51 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.prepareCompiler(JavacTaskImpl.java:204)[0m
+2022.04.28 18:44:51 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0(JavacTaskImpl.java:101)[0m
+2022.04.28 18:44:51 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)[0m
+2022.04.28 18:44:51 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)[0m
+2022.04.28 18:44:51 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:100)[0m
+2022.04.28 18:44:51 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:94)[0m
+2022.04.28 18:44:51 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:100)[0m
+2022.04.28 18:44:51 ERROR 	at bloop.CompilerCache$BloopJavaCompiler.run(CompilerCache.scala:307)[0m
+2022.04.28 18:44:51 ERROR 	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:94)[0m
+2022.04.28 18:44:51 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.$anonfun$compile$12(AnalyzingJavaCompiler.scala:172)[0m
+2022.04.28 18:44:51 ERROR 	at bloop.CompilerCache$BloopJavaCompiler.run(CompilerCache.scala:307)[0m
+2022.04.28 18:44:51 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:44:51 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.$anonfun$compile$12(AnalyzingJavaCompiler.scala:172)[0m
+2022.04.28 18:44:51 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.timed(AnalyzingJavaCompiler.scala:262)[0m
+2022.04.28 18:44:51 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:44:51 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.compile(AnalyzingJavaCompiler.scala:161)[0m
+2022.04.28 18:44:51 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.timed(AnalyzingJavaCompiler.scala:262)[0m
+2022.04.28 18:44:51 ERROR 	at sbt.internal.inc.javac.AnalyzingJavaCompiler.compile(AnalyzingJavaCompiler.scala:161)[0m
+2022.04.28 18:44:51 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$9(BloopHighLevelCompiler.scala:167)[0m
+2022.04.28 18:44:51 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$9(BloopHighLevelCompiler.scala:167)[0m
+2022.04.28 18:44:51 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:44:51 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:44:51 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)[0m
+2022.04.28 18:44:51 ERROR 	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)[0m
+2022.04.28 18:44:51 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$1(BloopHighLevelCompiler.scala:71)[0m
+2022.04.28 18:44:51 ERROR 	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)[0m
+2022.04.28 18:44:51 ERROR 	at bloop.tracing.BraveTracer.traceInternal(BraveTracer.scala:65)[0m
+2022.04.28 18:44:51 ERROR 	at bloop.tracing.BraveTracer.trace(BraveTracer.scala:39)[0m
+2022.04.28 18:44:51 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)[0m
+2022.04.28 18:44:51 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$8(BloopHighLevelCompiler.scala:160)[0m
+2022.04.28 18:44:51 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.timed$1(BloopHighLevelCompiler.scala:70)[0m
+2022.04.28 18:44:51 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:44:51 ERROR 	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)[0m
+2022.04.28 18:44:51 ERROR 	at sbt.internal.inc.bloop.internal.BloopHighLevelCompiler.$anonfun$compile$8(BloopHighLevelCompiler.scala:160)[0m
+2022.04.28 18:44:51 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+2022.04.28 18:44:51 ERROR 	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)[0m
+2022.04.28 18:44:51 ERROR 	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)[0m
+2022.04.28 18:44:51 ERROR 	at monix.eval.internal.TaskRunLoop$.monix$eval$internal$TaskRunLoop$$loop$1(TaskRunLoop.scala:187)[0m
+2022.04.28 18:44:51 ERROR 	at monix.eval.internal.TaskRunLoop$RestartCallback$1.onSuccess(TaskRunLoop.scala:119)[0m
+2022.04.28 18:44:51 ERROR 	at monix.eval.Task$.$anonfun$forkedUnit$2(Task.scala:1463)[0m
+2022.04.28 18:44:51 ERROR 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)[0m
+2022.04.28 18:44:51 ERROR 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1434)[0m
+2022.04.28 18:44:51 ERROR 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)[0m
+2022.04.28 18:44:51 ERROR 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)[0m
+2022.04.28 18:44:51 ERROR 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)[0m
+2022.04.28 18:44:51 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)[0m
+2022.04.28 18:44:51 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)[0m
+2022.04.28 18:44:51 ERROR 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)[0m
+2022.04.28 18:44:51 ERROR 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)[0m
+2022.04.28 18:44:51 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)[0m
+2022.04.28 18:44:51 ERROR 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)[0m
+2022.04.28 18:44:51 ERROR 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)[0m
+2022.04.28 18:44:51 INFO  time: compiled root in 13s[0m
