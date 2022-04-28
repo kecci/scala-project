@@ -93,3 +93,10 @@ curl localhost:9000/todo
   }
 ]
 ```
+
+## Deployment
+
+add new files called `system.properties` to set java version:
+```
+java.runtime.version=1.8
+```
