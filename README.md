@@ -1,5 +1,7 @@
 # scala-project
 
+![image](/assets/banner.png)
+
 source: https://www.baeldung.com/scala/play-rest-api
 
 ## Installation
